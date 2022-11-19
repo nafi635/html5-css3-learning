@@ -1,0 +1,28 @@
+
+<!-- If the image is not avalable, the text which you put on alt tag wil show up
+Alt - search engines read these --> 
+<html>
+    <head>
+
+        <style>
+            img {
+                width: 100px;
+                height: 200px;
+                object-fit: cover; /* It is very important property when image is higher pixel, it fits it. Try to see in inspect element */
+            }
+
+            video {
+                width: 400px;
+            }
+        </style>
+    </head>
+    <img src="images/coffee.avif" alt="A coffee mug on the table">
+
+    <!--     Until you put "controls" option, the videos controls won't be shown and video thumbnail will be shown-->    
+
+    <video controls autoplay src="videos/ocean_video.mp4"></video>
+
+    <audio controls autoplay></audio>
+
+<!--     Video and audio almost has same properties 
+ --></html>
