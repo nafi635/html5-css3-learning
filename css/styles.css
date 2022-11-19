@@ -1,0 +1,110 @@
+body{
+    margin: 10px;
+}
+
+p {
+    font-weight: bold;
+    color: blue;
+}
+
+a[target] {
+    color: orange;
+}
+
+#product p {
+    color: pink;
+}
+
+#product + p {
+    color: rgb(218, 38, 68);
+}
+
+p.first {
+    font-size: 140%;
+    font-style: italic;
+}
+
+p:first-child {     /* Psuedo selectors  */
+    font-size: 200%;
+}
+
+ul li:nth-child(odd) /*  we can use odd, even, 3n, 2n */
+{
+    color: aqua;
+}
+
+a:visited {
+    color: cadetblue;
+    font-weight: bold;
+}
+
+a:hover {
+    color: deeppink;
+}
+
+p::first-letter {  /* Psuedo elements ( The styl particular state of an element) 
+    vs Psuedo class ( Element in a particular state)  */
+    font-weight: bold;
+    font-size: 150%;
+}
+
+p::before {
+    content: "....";
+}
+
+/* Out of h1 and highlight points to same class - It only applies which is more specified 
+Specifity rule order: ID -> class -> elements 
+You can still use !important keyword */
+h1 {
+    color:deepskyblue !important;  
+}
+
+.highlight {     
+    color: deeppink;
+}
+
+#Specificity {
+    color: blueviolet;
+}
+
+/* Inheritance: Color : initial , color: inherit */
+#inherit {
+    color: blue;
+}
+
+strong {
+    color: initial;
+}
+
+/* COlors : RGB values, RGBA ( transperancy ), Hexa decimal, direct color name, HSL - Hue saturation lightness 
+ */
+ .box {
+    height: 400px;
+    width: 400px;
+    /* background-color: rgb(218, 38, 68);
+    background-color: rgba(218, 38, 68,0.6); */
+    background-image: linear-gradient(dodgerblue, yellow);
+    background-image: linear-gradient(to right, dodgerblue, yellow);
+    background-image: linear-gradient(to right, dodgerblue, yellow), tomato;
+    
+}
+
+.box2 {
+    height: 400px;
+    width: 400px;
+    background-image: radial-gradient(dodgerblue, yellow);
+}
+
+.box3 {
+    height: 400px;
+    width: 400px;
+    border: 10px dashed royalblue;
+    border-width: 10px 20px 30px 40px;  /* Order : trbl - top right bottom left (clock wise direction starting from top) */
+}
+
+.box4 {
+    height: 400px;
+    width: 400px;
+    background:  blanchedalmond;
+    box-shadow: 10px -10px 10px green;  /* negative value - left  */
+}
