@@ -1,0 +1,44 @@
+.firstdiv {
+    white-space: nowrap;
+    padding: 5%;
+    padding-inline: 10%;
+}
+
+/* All display inline blocks means in one row
+ */#square {
+    width: 400px;
+    height: 400px;
+    background: rgb(113, 151, 68);
+    display: inline-block;
+}
+
+#rectangle {
+    width: 400px;
+    height: 200px;
+    background: red;
+    display: inline-block;
+}
+
+#circle {
+    width: 400px;
+    height: 400px;
+    background: rgb(250, 34, 250);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+#oval {
+    width: 400px;
+    height: 220px;
+    background: rgb(94, 46, 94);
+    border-radius: 50%/50%;
+    display: inline-block;
+}
+
+#traingle {
+    width: 0;
+    height: 0;
+    border-left: 200px solid transparent;
+    border-right: 200px solid transparent;
+    border-bottom: 100px solid tomato;
+}
