@@ -1,3 +1,7 @@
+:root {
+    --color-primary: gold;
+}
+
 body {
     display: flex;
     justify-content: center;
@@ -8,7 +12,7 @@ body {
 .box {
     width: 100px;
     height: 100px;
-    background-color: tomato;
+    background-color: var(--color-primary);
     transform:rotate(45deg);
     animation-name: pop;
     animation-duration: 4s;
