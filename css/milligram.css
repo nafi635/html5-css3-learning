@@ -1,0 +1,8 @@
+form {
+    width: 30%;
+    padding: 50px;
+}
+
+textarea {
+    resize: none;
+}
