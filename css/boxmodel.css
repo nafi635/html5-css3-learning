@@ -1,0 +1,49 @@
+p {
+    padding: 10px 20px;
+    border: 10px solid yellow;
+    width: 100px;    /* Width and height are not applied to span or inline elements, only applied to block elements */
+    height: 100px;
+}
+
+p::before{
+    content: "asdads";
+}
+
+.box {
+    /* width: 100px; we have different sizes px,% ( percetnage of a parent element) vw & vh ( view ports based), em, rem (root element) */ 
+    width: 50%;    /*    Width of a a parent element */  
+    height: 100px;
+    background-color: gold;
+}
+
+.box1 {
+    width: 150px ;
+    height: 150px;
+    border: 3px solid gold;
+    overflow: auto;
+}
+
+.div-box {
+    width: 5rem;
+    height: 5rem;
+    border: 3px solid gold;
+}
+
+/* Position : relative (relative to this original posistion), absolute - positioned based on relative to container */
+/* clear propertuy clear: both, it removes floats and position after float elements 
+Elements woon't see floated elementes*/
+.box4 {
+    background-color: aqua;
+    position: relative;
+
+}
+
+.box5 {
+    background-color: tomato;
+}
+
+.box6 {
+    background-color: navy;
+}
+
+/* For box model, default margin 16px */

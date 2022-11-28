@@ -1,0 +1,30 @@
+p {
+    font-size: 2rem;
+    font-family: "Sofia", sans-serif;
+    /* font-family: "Times New Roman"; */
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-weight: 600;
+    line-height: 3rem ;
+    line-height: 1.5;   
+     /* // Verticatl spacing */
+     /* 1.5 x against font size */
+    letter-spacing: 1px;
+    word-spacing: 10px;
+    text-align: center;    /* text align left is the msot used in web */
+    text-indent: 1rem;   /* Starting space of a paragraph */
+    text-decoration: underline; /* underlining text */
+    text-transform: capitalize; 
+    /* Not showing text, hiding whole text and showing ellipsis overflowing text
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis */
+    /* capital evvery word */
+    line-clamp: 3;  /* after 3 lines of a code*/
+    column-count: 2; /* mutli columns showing amazon kindle
+} 
+
+/* If we want to import outside fonts */
+@font-face {
+    font-family: ;
+    src: url();
+}

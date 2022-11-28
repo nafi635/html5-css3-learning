@@ -1,0 +1,17 @@
+a:visited {
+    font-size: large;
+    color: aqua;
+}
+
+a:hover {
+    font-size: 40px;
+    color: aqua;
+}
+
+a:hover {
+    padding: 20px 40px;
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+}

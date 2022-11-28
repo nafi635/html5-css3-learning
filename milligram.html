@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/milligram.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+
+    </head>
+    <body>
+       <form action="">
+        <div class="form-group">
+            <label for="name">Name</label>  <!--- Use label instead of pargraphs. "for" is very usefl-->
+            <input id="name" type="text" class="text" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>  <!--- Use label instead of pargraphs. "for" is very usefl-->
+            <input id="email" type="email" class="text">
+        </div>
+        <div class="form-group">
+            <label for="password">Password</label>  <!--- Use label instead of pargraphs. "for" is very usefl-->
+            <input id="password" type="password">
+        </div>
+        <div class="form-group">
+            <label for="dob">Date of birth</label>  <!--- Use label instead of pargraphs. "for" is very usefl-->
+            <input id="dob" type="date">
+        </div>
+        
+        <textarea cols="30" rows="10"></textarea>
+
+            <label>Countries</label>  <!--- Use label instead of pargraphs. "for" is very usefl-->
+            <input type="text" list="countries">
+            <datalist id="countries">
+                <option>Select a course</option>
+                <option selected>Australia</option>
+                <option>Canada</option>
+                <option>India</option>
+            </datalist>
+  
+        <select name="" id="">
+            <option></option>
+            <option>HTML</option>
+            <option>CSS</option>
+            <option>JAVA SCRIPT</option>
+        </select>
+
+        <input type="checkbox"> <label class="label-inline">Front End</label>
+        
+        <input type="range" min="0" max="100">
+
+        <fieldset>
+            <legend>Billing address</legend>
+            <input type="text">
+            <input type="text">
+            <input type="text">
+        </fieldset>
+        <div class="form-group">
+            <button type="submit">Register</button>
+            <button>Clear</button>
+        </div>
+        </form>
+    
+    </body>
+</html>

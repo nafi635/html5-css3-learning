@@ -1,0 +1,36 @@
+.container {
+    border: 3px solid lightgray;
+    display: flex;
+    flex-direction: row;  
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    /* default flex direction is row
+    flex-direction  - row, column, row-reverse, column-reverse
+    
+    Align item :
+
+    justify-content : end , start, center, space-around, soace-evenly...
+    NOTE: YOU DON"T NEED TO REMEBER ANYTHING. Just KNOW
+
+    align-items - vertical 
+
+    align-content - total boxes content, when you wrap , all items won't stay in middle
+    
+    flex- wrap : no wrap
+    
+    */
+}
+
+.first-item {
+    /* align-self: flex-start; */
+}
+
+.box1 {
+    width: 5rem;
+    height: 5rem;
+    background: gold;
+    margin: 1rem;
+}
+
+
